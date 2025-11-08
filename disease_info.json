@@ -1,0 +1,46 @@
+{
+  "skin_cancer": {
+    "model_config": {
+      "path": "models/skin_cancer_model.h5",
+      "size": [224, 224]
+    },
+    "labels": ["Benign", "Malignant"],
+    "description": "Skin cancer diagnosis using dermatoscopic images",
+    "details": {
+      "Benign": {
+        "info": "Non-cancerous skin lesion that doesn't spread to other parts of the body",
+        "symptoms": ["Symmetrical shape", "Even coloration", "Smooth borders", "Stable size"],
+        "causes": ["Sun exposure", "Genetic factors", "Moles", "Skin type"],
+        "treatment_overview": "Monitoring and regular check-ups; removal if necessary"
+      },
+      "Malignant": {
+        "info": "Cancerous skin lesion that can invade surrounding tissue and spread",
+        "symptoms": ["Asymmetrical shape", "Irregular borders", "Multiple colors", "Changing size"],
+        "causes": ["UV radiation", "Fair skin", "Family history", "Weakened immune system"],
+        "treatment_overview": "Surgical removal, chemotherapy, radiation therapy, or immunotherapy"
+      }
+    }
+  },
+  "pneumonia": {
+    "model_config": {
+      "path": "models/pneumonia_model.h5",
+      "size": [224, 224]
+    },
+    "labels": ["Normal", "Pneumonia"],
+    "description": "Pneumonia detection from chest X-ray images",
+    "details": {
+      "Normal": {
+        "info": "Healthy lungs with no signs of infection",
+        "symptoms": ["Clear breathing", "Normal lung sounds", "No cough or fever"],
+        "causes": ["N/A"],
+        "treatment_overview": "Maintain good respiratory health"
+      },
+      "Pneumonia": {
+        "info": "Lung infection causing inflammation in air sacs",
+        "symptoms": ["Cough with phlegm", "Fever", "Difficulty breathing", "Chest pain"],
+        "causes": ["Bacteria", "Viruses", "Fungi", "Aspiration"],
+        "treatment_overview": "Antibiotics, rest, fluids, and in severe cases hospitalization"
+      }
+    }
+  }
+}

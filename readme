@@ -1,0 +1,30 @@
+# Medical Classification Tool
+
+A Gradio-based AI tool for medical image classification and disease text analysis.
+
+![Demo](https://img.shields.io/badge/demo-HuggingFace_Spaces-blue) 
+![License](https://img.shields.io/badge/license-MIT-green)
+
+## Features
+
+- **Image Classification**: Analyze medical images (X-rays, CT scans) using Vision Transformer (ViT)
+- **Text Analysis**: Detect disease mentions in clinical text using BioBERT/NER models
+
+## How to Use
+
+1. **Image Classification Tab**:
+   - Upload any medical image (JPEG/PNG)
+   - Get AI-powered classification results
+
+2. **Text Analysis Tab**:
+   - Enter medical text (symptoms, clinical notes)
+   - Receive disease entity recognition results
+
+## Deployment
+
+### Local Installation
+```bash
+git clone https://github.com/yourusername/medical-ai.git
+cd medical-ai
+pip install -r requirements.txt
+python doctor.py
